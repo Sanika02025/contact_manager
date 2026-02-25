@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+     <h1 class="title">Contact Manager</h1>
+
+    <div class="card form-card">
+      <h2>Add Contact</h2>
+
+      <form id="contactForm">
+  <input id="name" type="text" placeholder="Name" required />
+  <input id="email" type="email" placeholder="Email" required />
+  <input id="phone" type="tel" placeholder="Phone" required />
+  <button type="submit">Add Contact</button>
+</form>
+
+    </div>
+    <div class="card search-card">
+      <input id="search" type="text" placeholder="Search contact..." />
+    </div>
+
+   <div class="card list-card">
+      <h2>Saved Contacts</h2>
+      <ul id="contactList"></ul>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
